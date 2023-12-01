@@ -1,5 +1,5 @@
 ## solectrus-sungrow-python v0.01
-###Pls Note that this is NOT officially approved by solecturs devs - and defentily more of a hacky solution rather than production ready
+### Pls Note that this is NOT officially approved by solecturs devs - and defentily more of a hacky solution rather than production ready
 
 This is using a [sungrow python wrapper](https://github.com/wallento/sungrow-websocket) and [Solectrus](https://github.com/solectrus).
 Pls make sure to go and check out these repos!
