@@ -4,5 +4,5 @@ WORKDIR /usr/src/app
 COPY ./requirements.txt .
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
-COPY main.py .
-CMD ["sh", "-c", "while true; do python3 main.py; sleep 60; done"]
+COPY fetch-sungrow-inverter.py .
+CMD ["sh", "-c", "while true; do python3 fetch-sungrow-inverter.py; sleep 60; done"]

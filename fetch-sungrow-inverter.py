@@ -8,7 +8,7 @@ import os
 logging.basicConfig(level=logging.WARNING)
 
 def pull_inverter_data():
-    host = "0.0.0.0" #ADD IP ADDRESS OF INVERTER
+    host = os.environ['SUNGROW_IP_ADDR']
     sg = SungrowWebsocket(host)
     data = sg.get_data()
     return data
