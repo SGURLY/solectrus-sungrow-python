@@ -1,0 +1,15 @@
+version: '3'
+services:
+  sungrow-inverter-importer:
+    container_name: sungrow-inverter-importer
+    build:
+      context: .
+      dockerfile: Dockerfile
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
+    environment:
+      - INFLUX_ORG
+      - INFLUX_BUCKET
+      - INFLUX_MEASUREMENT_PV
+      - INFLUX_TOKEN=${INFLUX_TOKEN_READ}
+    restart: always
