@@ -1,4 +1,4 @@
-## solectrus-sungrow-python v0.01
+## Sungrow plugin for Solectrus Inverters, Batteries & Wallboxes v0.01
 ### Pls Note that this is NOT officially approved by solecturs devs - and defentily more of a hacky solution rather than production ready
 
 This is using a [sungrow python wrapper](https://github.com/wallento/sungrow-websocket) and [Solectrus](https://github.com/solectrus).
